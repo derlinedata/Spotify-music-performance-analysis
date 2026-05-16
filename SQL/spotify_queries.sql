@@ -124,12 +124,13 @@ Base_ComMetrica AS (
 -- =========================================
 SELECT * FROM Base_ComMetrica;       
 -- =========================================
+
 -- LIMPEZA E TRATAMENTO DA BASE CONCORRENTE
 -- =========================================
 CREATE OR REPLACE TABLE `projeto-1-modulo-dados.Projeto_1Rota_B.Base_Conconrrente_Limpa` AS
 
 -- =========================================
--- 1️⃣ Limpeza + padronização
+-- 1️. Limpeza, tratamento e padronização 
 -- =========================================
 WITH base_Ctratada AS (
   SELECT *
@@ -163,7 +164,7 @@ WITH base_Ctratada AS (
 ),
 
 -- =========================================
--- 2️⃣ Métricas de negócio (multi-plataforma)
+-- 2. Métricas de negócio (multi-plataforma)
 -- =========================================
 base_Cfinal AS (
   SELECT
@@ -209,7 +210,7 @@ SELECT
   c.charts_total_outros,
   c.presenca_total_outros,
 
-  -- 🔥 MÉTRICA MASTER (com proteção contra NULL)
+  -- MÉTRICA MASTER (com proteção contra NULL)
   (e.presenca_spotify + IFNULL(c.presenca_total_outros, 0)) AS presenca_total_global
 
 FROM `projeto-1-modulo-dados.Projeto_1Rota_B.Base_Empresa_Limpa` e
@@ -225,14 +226,14 @@ CREATE OR REPLACE TABLE `projeto-1-modulo-dados.Projeto_1Rota_B.BaseFinal_Analis
 SELECT
   *,
 
-  -- 🎯 Total de playlists (todas plataformas)
+  -- Total de playlists (todas plataformas)
   (
     IFNULL(in_spotify_playlists, 0) +
     IFNULL(in_apple_playlists, 0) +
     IFNULL(in_deezer_playlists, 0)
   ) AS total_playlists,
 
-  -- 📊 Total de charts (todas plataformas)
+  -- Total de charts (todas plataformas)
   (
     IFNULL(in_spotify_charts, 0) +
     IFNULL(in_apple_charts, 0) +
