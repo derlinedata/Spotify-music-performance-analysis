@@ -6,6 +6,8 @@ Este projeto analisa fatores que influenciam o desempenho musical no Spotify, ut
 
 O objetivo é identificar quais variáveis possuem maior impacto no crescimento de streams e no desempenho global das músicas nas plataformas digitais.
 
+---
+
 ## Objetivo de Negócio
 
 Identificar os principais fatores relacionados ao desempenho musical no Spotify, analisando o impacto de playlists, charts, gêneros musicais e presença multiplataforma sobre o volume de streams.
@@ -16,21 +18,22 @@ A análise busca apoiar decisões estratégicas relacionadas à descoberta music
 
 ## Estrutura do Projeto
 
-```bash
+```text
 Spotify-music-performance-analysis/
-│
+
 ├── SQL/
 │   └── spotify_queries.sql
-│
+
 ├── Dashboard/
 │   └── dashboard_spotify.png
-│
+
 ├── Images/
 │   └── charts_analysis.png
-│
-└── README.md
 
----
+├── spotify_music_analysis.ipynb
+
+└── README.md
+```
 
 ## Ferramentas Utilizadas
 
@@ -53,14 +56,6 @@ O projeto foi desenvolvido seguindo etapas estruturadas de análise de dados:
 5. Análise exploratória e estatística dos dados.
 6. Construção de visualizações analíticas em Python.
 7. Desenvolvimento de dashboard executivo no Looker Studio.
-
-### Técnicas Aplicadas
-- Limpeza e tratamento de dados
-- Padronização de variáveis
-- Deduplicação
-- Criação de métricas de negócio
-- Modelagem analítica
-- Análise exploratória
 
 ---
 
