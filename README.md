@@ -6,6 +6,12 @@ Este projeto analisa fatores que influenciam o desempenho musical no Spotify, ut
 
 O objetivo é identificar quais variáveis possuem maior impacto no crescimento de streams e no desempenho global das músicas nas plataformas digitais.
 
+## Objetivo de Negócio
+
+Identificar os principais fatores relacionados ao desempenho musical no Spotify, analisando o impacto de playlists, charts, gêneros musicais e presença multiplataforma sobre o volume de streams.
+
+A análise busca apoiar decisões estratégicas relacionadas à descoberta musical, ampliação de alcance e comportamento de consumo em plataformas digitais.
+
 ---
 
 ## Estrutura do Projeto
@@ -35,6 +41,18 @@ Spotify-music-performance-analysis/
 - Looker Studio
 - Google Sheets
 
+## Metodologia
+
+O projeto foi desenvolvido seguindo etapas estruturadas de análise de dados:
+
+1. Extração e consulta dos dados utilizando SQL e BigQuery.
+2. Limpeza e padronização das variáveis.
+3. Tratamento de dados ausentes e inconsistências.
+4. Criação de métricas analíticas derivadas.
+5. Análise exploratória e estatística dos dados.
+6. Construção de visualizações analíticas em Python.
+7. Desenvolvimento de dashboard executivo no Looker Studio.
+
 ### Técnicas Aplicadas
 - Limpeza e tratamento de dados
 - Padronização de variáveis
@@ -45,40 +63,49 @@ Spotify-music-performance-analysis/
 
 ---
 
-## Principais Análises
+## Perguntas Analíticas
 
-As análises foram desenvolvidas para responder perguntas estratégicas como:
-
-- Playlists aumentam os streams?
-- Charts influenciam o desempenho musical?
-- Quais gêneros geram mais hits?
-- A presença em múltiplas plataformas melhora a performance?
-- Quais períodos de lançamento apresentam melhores resultados?
+As análises foram conduzidas para responder questões estratégicas relacionadas ao desempenho musical nas plataformas digitais:
+- Existe relação entre presença em playlists e crescimento de streams?
+- Qual o impacto dos charts no desempenho musical?
+- Quais gêneros apresentam maior relevância no consumo digital?
+- A presença multiplataforma contribui para ampliação de alcance?
+- Como os lançamentos musicais evoluíram ao longo do tempo?
 
 ---
 
-## Principais Insights
+## Principais Insights Estratégicos
 
-- Playlists apresentaram forte relação com crescimento de streams.
-- Charts aumentaram a visibilidade das músicas.
-- Gêneros alternativos apresentaram alta conversão proporcional em hits.
-- A presença multiplataforma contribuiu para maior alcance global.
+- Variáveis relacionadas à presença em playlists apresentaram correlação mais forte com streams do que variáveis associadas a charts.
+- O crescimento recente do volume de lançamentos evidencia aumento da competitividade no mercado musical digital.
+- Estratégias multiplataforma demonstraram relevância para ampliação de alcance e descoberta musical.
+- Gêneros musicais apresentam comportamentos distintos de consumo, indicando oportunidades de segmentação analítica.
 
 ---
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido como prática de análise de dados aplicada ao mercado musical, utilizando técnicas de Business Intelligence e Analytics para transformar dados em insights estratégicos.
+Este projeto foi desenvolvido com foco em análise de dados aplicada ao mercado de streaming musical, utilizando conceitos de Business Intelligence, Analytics e visualização estratégica de dados.
 
-Todo o processo incluiu:
+A proposta central foi transformar dados brutos em análises capazes de gerar interpretação de comportamento musical, identificação de padrões de consumo e suporte à tomada de decisão orientada por dados.
 
-- limpeza e preparação das bases;
+O desenvolvimento contemplou:
+
+- limpeza e preparação dos dados;
 - modelagem analítica;
-- criação de métricas;
-- exploração dos dados;
-- desenvolvimento de dashboard.
+- criação de métricas de negócio;
+- análise exploratória;
+- visualização estratégica;
+- construção de dashboard executivo.
 
 ---
+
+## Próximos Passos
+
+- Desenvolver modelos preditivos para estimativa de performance musical.
+- Expandir análises temporais e segmentações por gênero.
+- Criar indicadores de eficiência de playlists.
+- Evoluir o dashboard com filtros interativos e métricas avançadas.
 
 ## Contato
 
