@@ -29,6 +29,7 @@ Spotify-music-performance-analysis/
 │   └── charts_analysis.png
 │
 └── README.md
+
 ---
 
 ## Ferramentas Utilizadas
