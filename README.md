@@ -21,18 +21,27 @@ A análise busca apoiar decisões estratégicas relacionadas à descoberta music
 ```text
 Spotify-music-performance-analysis/
 
-├── SQL/
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── dashboards/
+│   ├── spotify_dashboard.pdf
+│   └── dashboard_preview.png
+│
+├── images/
+│   ├── charts_analysis.png
+│   └── dashboard_cover.png
+│
+├── notebooks/
+│   └── spotify_music_analysis.ipynb
+│
+├── sql/
 │   └── spotify_queries.sql
-
-├── Dashboard/
-│   └── dashboard_spotify.png
-
-├── Images/
-│   └── charts_analysis.png
-
-├── spotify_music_analysis.ipynb
-
-└── README.md
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Ferramentas Utilizadas
