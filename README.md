@@ -1,5 +1,7 @@
 # Spotify Music Performance Analysis
 
+![Dashboard Spotify](images/dashboard_cover.png)
+
 ## Visão Geral
 
 Este projeto analisa fatores que influenciam o desempenho musical no Spotify, utilizando SQL, BigQuery e Looker Studio para explorar padrões de streaming, playlists, charts, gêneros musicais e presença multiplataforma.
