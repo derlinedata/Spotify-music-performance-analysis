@@ -20,6 +20,15 @@ A análise busca apoiar decisões estratégicas relacionadas à descoberta music
 
 ---
 
+---
+
+## Dashboard
+
+- 🔗 Dashboard Interativo: [Visualizar Dashboard](https://datastudio.google.com/u/0/reporting/7492ed41-9bb6-4b8b-87d7-7cc1f6872af6/page/p_0fx7rwok3d?s=qERx2UGsjaY)
+- 📄 Dashboard em PDF: [Baixar PDF](dashboards/spotify_dashboard.pdf)
+
+---
+
 ## Estrutura do Projeto
 
 ```text
