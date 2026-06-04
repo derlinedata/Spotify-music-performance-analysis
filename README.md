@@ -1,6 +1,6 @@
 # Spotify Music Performance Analysis
 
-![Dashboard Spotify](images_dashboard_cover.png)
+![Dashboard Spotify](images/dashboard_cover.png)
 
 ## Visão Geral
 
