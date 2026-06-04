@@ -1,5 +1,7 @@
 # Spotify Music Performance Analysis
 
+## Dashboard Executivo
+
 ![Dashboard Spotify](images/dashboard_cover.png)
 
 ## Visão Geral
