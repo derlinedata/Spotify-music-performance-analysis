@@ -30,8 +30,8 @@ Spotify-music-performance-analysis/
 │   └── processed/
 │
 ├── dashboards/
-│   ├── spotify_dashboard.pdf
-│   └── dashboard_preview.png
+│   ├── dashboard_link.md
+│   └── spotify_dashboard.pdf
 │
 ├── images/
 │   ├── charts_analysis.png
