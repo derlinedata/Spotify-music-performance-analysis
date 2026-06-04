@@ -45,8 +45,8 @@ Spotify-music-performance-analysis/
 ├── images/
 │   ├── dashboard_cover.png
 │   └── insight_genres.png
-    └── inght_playlists.png
-    └── inght_performance.png
+│    └── inght_playlists.png
+│   └── inght_performance.png
 │
 ├── notebooks/
 │   └── spotify_music_analysis.ipynb
